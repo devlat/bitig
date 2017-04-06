@@ -8,9 +8,7 @@ import java.io.FileNotFoundException;
 import java.util.HashMap;
 
 /**
- * 
  * @author Ilyas
- *
  * Класс парсит файл со ссылками и хранит их в HashMap
  */
 public class Links {

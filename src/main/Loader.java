@@ -8,15 +8,16 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStreamReader;
 
+/**
+ * @author Ilyas
+ * Загрузка файлов
+ */
 public class Loader {
 	private URL target;
 	private BufferedInputStream in;
 	private FileOutputStream fout;
 	private File file;
-	
-	/**
-	 * Класс загрузки файлов по ссылке.
-	 */
+
 	public Loader() {
 		/**
 		 * Set CNTLM local proxy for access network
